@@ -12,7 +12,7 @@ const Bluetooth = props => {
       fill={color}
       {...otherProps}
     >
-      <g clipPath="url(#clip0)">
+      <g clipPath="url(#clip0_43_60)">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -20,7 +20,7 @@ const Bluetooth = props => {
         ></path>
       </g>
       <defs>
-        <clipPath id="clip0">
+        <clipPath id="clip0_43_60">
           <rect width="24" height="24"></rect>
         </clipPath>
       </defs>

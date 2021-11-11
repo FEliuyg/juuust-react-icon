@@ -12,14 +12,14 @@ const CloudRain = props => {
       fill={color}
       {...otherProps}
     >
-      <g clipPath="url(#clip0)" fillRule="evenodd" clipRule="evenodd">
+      <g clipPath="url(#clip0_43_130)" fillRule="evenodd" clipRule="evenodd">
         <path d="M16 12a1 1 0 011 1v8a1 1 0 11-2 0v-8a1 1 0 011-1z"></path>
         <path d="M8 12a1 1 0 011 1v8a1 1 0 11-2 0v-8a1 1 0 011-1z"></path>
         <path d="M12 14a1 1 0 011 1v8a1 1 0 11-2 0v-8a1 1 0 011-1z"></path>
         <path d="M8.082.047A9 9 0 0117.48 6h.522a6 6 0 012.4 11.496 1 1 0 11-.802-1.832A4 4 0 0017.999 8H16.74a1 1 0 01-.968-.75 7 7 0 10-11.148 7.219 1 1 0 01-1.248 1.562A9 9 0 018.082.047z"></path>
       </g>
       <defs>
-        <clipPath id="clip0">
+        <clipPath id="clip0_43_130">
           <rect width="24" height="24"></rect>
         </clipPath>
       </defs>

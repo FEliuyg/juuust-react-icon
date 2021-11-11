@@ -1,24 +1,16 @@
 const getAttrs = (style) => {
-  const baseAttrs = {
-    xmlns: 'http://www.w3.org/2000/svg',
-    width: 'size',
-    height: 'size',
-    viewBox: '0 0 24 24',
-  }
   const fillAttrs = {
-    fill: 'color',
-    otherProps: '...otherProps'
-  }
+    fill: "color",
+  };
   const strokeAttrs = {
-    fill: 'none',
-    stroke: 'color',
+    fill: "none",
+    stroke: "color",
     strokeWidth: 2,
-    strokeLinecap: 'round',
-    strokeLinejoin: 'round',
-    otherProps: '...otherProps'
-  }
-  return Object.assign({}, baseAttrs, style==='fill' ? fillAttrs : strokeAttrs)
-}
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+  };
+  return style === "fill" ? fillAttrs : strokeAttrs;
+};
 
 const getElementCode = (ComponentName, attrs, svgCode) => `
   import React from 'react';
@@ -27,7 +19,7 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   const ${ComponentName} = (props) => {
     const { color, size, ...otherProps } = props;
     return (
-      <svg ${attrs}>
+      <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" ${attrs} {...otherProps}>
         ${svgCode}
       </svg>
     )
@@ -47,6 +39,6 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   }
 
   export default ${ComponentName}
-`
+`;
 
-module.exports = { getAttrs, getElementCode }
+module.exports = { getAttrs, getElementCode };

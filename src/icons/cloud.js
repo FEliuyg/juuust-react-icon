@@ -12,15 +12,15 @@ const Cloud = props => {
       fill={color}
       {...otherProps}
     >
-      <g clipPath="url(#clip0)">
+      <g clipPath="url(#clip0_43_120)">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
-          d="M5.873 3.559A9 9 0 0117.479 9H18a6 6 0 010 12H9A9 9 0 01.01 12.518L0 12.5l.007-.011a8.999 8.999 0 015.862-8.93h.004zm.69 1.876a7.007 7.007 0 00-3.105 2.28A7 7 0 008.977 19H18a4 4 0 100-8h-1.26a1 1 0 01-.968-.75 7 7 0 00-9.208-4.815z"
+          d="M5.873 3.559A9 9 0 0117.479 9H18a6 6 0 110 12H9A9 9 0 01.01 12.518L0 12.5l.007-.011a8.999 8.999 0 015.862-8.93h.004zm.69 1.876a6.999 6.999 0 00-1.268 12.508A7 7 0 008.977 19H18a4 4 0 100-8h-1.26a1 1 0 01-.968-.75 7 7 0 00-9.208-4.815z"
         ></path>
       </g>
       <defs>
-        <clipPath id="clip0">
+        <clipPath id="clip0_43_120">
           <rect width="24" height="24"></rect>
         </clipPath>
       </defs>
